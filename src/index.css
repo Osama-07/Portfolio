@@ -16,3 +16,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: #FFF;
+  background-color: #b43403;
+}
