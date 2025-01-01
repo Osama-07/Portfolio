@@ -2,6 +2,7 @@ import About from "./Components/About";
 import Header from "./Components/Header";
 import HeroSection from "./Components/HeroSection";
 import Projects from "./Components/Projects/Projects";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 }

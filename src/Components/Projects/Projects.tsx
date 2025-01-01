@@ -129,10 +129,10 @@ const Projects = () => {
   const lastCardRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (lastCardRef.current) {
+    if (lastCardRef.current && visibleCount > 3) {
       lastCardRef.current.scrollIntoView();
     }
-  }, [visibleCards]);
+  }, [visibleCards, visibleCount]);
 
   const LoadMoreCard = () => {
     const newCount = visibleCount + 3;
