@@ -41,13 +41,13 @@ const HeroSection = () => {
           problems, and creating impactful applications.
         </p>
         <a
-          href="#about"
+          href="#projects"
           className="duration-200 px-5 py-3 inline-flex items-center justify-center text-base font-medium text-white bg-orange-700 rounded-lg hover:bg-orange-800 focus:ring-4 focus:ring-orange-700 dark:focus:ring-orange-700"
         >
           View Projects
         </a>
         <a
-          href="#projects"
+          href="#contact"
           className="ml-4 duration-200 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-orange-700 rounded-lg hover:bg-orange-800 focus:ring-4 focus:ring-orange-700 dark:focus:ring-orange-700"
         >
           Contact Me
