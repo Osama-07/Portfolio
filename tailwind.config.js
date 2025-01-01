@@ -5,9 +5,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx,html}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cairo: ["Cairo", "sans-serif"], // تعريف خط Cairo
+      },
+    },
   },
-  plugins: [
-    require("flowbite/plugin"),
-  ],
+  plugins: [require("flowbite/plugin")],
 };
