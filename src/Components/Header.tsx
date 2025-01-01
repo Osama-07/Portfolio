@@ -26,7 +26,7 @@ function Header() {
         <div className="w-full flex flex-wrap items-center justify-around max-md:justify-between p-4">
           <a href="#home" className="flex items-center space-x-3">
             <span className="self-center text-3xl font-extrabold whitespace-nowrap dark:text-white">
-              Osama <span className="text-orange-700">Abdulaziz</span>
+              Osama <span className="text-orange-500">Abdulaziz</span>
             </span>
           </a>
           <div className="md:hidden flex md:order-2 space-x-3 md:space-x-0">
