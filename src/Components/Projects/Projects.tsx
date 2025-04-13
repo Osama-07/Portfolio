@@ -3,6 +3,15 @@ import Card from "./Card";
 
 const cardData = [
   {
+    title: "Solar Fix",
+    description:
+      "A full-stack web platform that connects clients with certified solar technicians. Clients can register, book services, track request status, and rate technicians. Technicians manage incoming requests, accept jobs, and close completed orders.",
+    img: "/SolarFix.png",
+    link: "https://github.com/Osama-07/SolarFix-API",
+    webLink:
+      "https://solar-fix-git-main-osamas-projects-b75d1734.vercel.app/login",
+  },
+  {
     title: "Prayers Timings",
     description:
       "A website developed to display prayer times for Muslims, built using Vite, React, and Tailwind CSS. The site provides accurate and timely prayer schedules based on the user's location, offering a clean and user-friendly interface. The use of Tailwind CSS ensures a responsive design, while Vite accelerates the development process for a fast, smooth user experience.",
