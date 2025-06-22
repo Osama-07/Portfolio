@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <>
-      <nav className="md:px-32 fixed w-full z-20 top-0 start-0 bg-black opacity-80">
+      <nav className="md:px-32 fixed w-full z-20 top-0 start-0 bg-black backdrop-blur bg-opacity-50">
         <div className="w-full flex flex-wrap items-center justify-around max-md:justify-between p-4">
           <a href="#home" className="flex items-center space-x-3">
             <span className="self-center text-3xl font-extrabold whitespace-nowrap dark:text-white">

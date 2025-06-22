@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 import Typed from "typed.js";
 
 const HeroSection = () => {
@@ -26,12 +27,7 @@ const HeroSection = () => {
 
   return (
     <div className="relative h-screen overflow-hidden" id="home">
-      <img
-        className="w-full h-full object-cover"
-        src="/Portfolio-Logo.png"
-        alt="Landing Camera"
-      />
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-85"></div>
+      {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-85"></div> */}
       <div className="md:pl-56 max-md:text-center w-full px-3 absolute top-1/2 transform -translate-y-1/2">
         <h1 className="relative w-fit max-md:m-auto max-md:text-center mb-4 text-4xl font-extrabold leading-normal tracking-tight md:text-5xl lg:text-6xl text-white after:absolute after:w-1/2 after:h-1 after:bg-orange-500 after:left-0 after:-bottom-5 max-md:after:left-1/4 max-md:after:right-1/4">
           <span ref={el} />
@@ -56,9 +52,9 @@ const HeroSection = () => {
       <a
         href="https://wa.me/966554669791"
         target="_blank"
-        className="max-md:opacity-30 hover:opacity-100 fixed w-16 h-16 bottom-10 right-6 duration-200 hover:scale-110 cursor-pointer"
+        className="max-md:opacity-30 hover:opacity-100 fixed w-16 h-16 bottom-10 right-6 duration-200 hover:scale-110 cursor-pointer z-10"
       >
-        <img className="w-full" src="/Whatsapp-logo.png" alt="" />
+        <FaWhatsapp color="white" size={70} />
       </a>
     </div>
   );

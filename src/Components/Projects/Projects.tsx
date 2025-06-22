@@ -152,7 +152,7 @@ const Projects = () => {
     ]);
   };
   return (
-    <div id="projects" className="bg-zinc-900 px-12 py-20 ">
+    <div id="projects" className="px-12 py-20 ">
       <h1 className="text-center text-white text-6xl font-extrabold mb-20">
         Pr<span className="text-orange-500">o</span>jects
       </h1>
