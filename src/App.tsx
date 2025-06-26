@@ -5,8 +5,18 @@ import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact";
 import video from "../public/background4.mp4";
 import Footer from "./Components/Footer";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="relative min-h-screen text-white">
       {/* <!-- خلفية --> */}

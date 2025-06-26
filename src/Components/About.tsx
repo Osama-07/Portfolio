@@ -1,16 +1,19 @@
 const About = () => {
   return (
-    <div id="about" className="pb-20 mt-10 max-md:py-10">
+    <div id="about" className="pb-20 max-md:py-10">
       <div className="container">
-        <h1 className="text-center text-6xl font-extrabold mb-20">
+        <h1 className="text-center text-6xl font-extrabold mb-20 bg-gradient-to-tr from-orange-500 via-white to-gray-500 bg-clip-text text-transparent">
           Ab<span className="text-orange-500">ou</span>t
         </h1>
         <div className="p-5 mx-14 max-md:mx-4 grid grid-cols-2 gap-y-10 max-lg:grid-cols-1 rounded-lg max-md:rounded-lg max-md:text-center">
-          <div className="backdrop-blur bg-black/60 rounded-lg p-5 relative after:absolute after:w-1 after:h-3/4 after:top-1/2 after:-translate-y-1/2 after:bg-orange-500 after:-right-2.5 after:rounded-lg max-lg:after:hidden">
+          <div
+            data-aos="fade-right"
+            className="backdrop-blur bg-white/10 rounded-lg p-5 relative after:absolute after:w-1 after:h-3/4 after:top-1/2 after:-translate-y-1/2 after:bg-orange-500 after:-right-2.5 after:rounded-lg max-lg:after:hidden"
+          >
             <h1 className="relative w-fit max-md:w-full mb-8 text-3xl font-extrabold after:absolute after:w-1/2 after:h-1 after:rounded-lg after:bg-orange-500 after:-bottom-5 after:left-0 max-md:after:left-1/4">
               About Me
             </h1>
-            <p className="text-lg">
+            <p className="text-lg text-justify whitespace-pre-line leading-relaxed">
               I am Osama Abdulaziz Mohamed Abdulsalam, a{" "}
               <b>Full Stack Web Developer</b> specializing in creating modern
               and visually appealing interfaces using React, TypeScript, and
@@ -21,7 +24,10 @@ const About = () => {
               a seamless experience.
             </p>
           </div>
-          <div className="backdrop-blur bg-black/60 rounded-lg p-5 lg:ml-4">
+          <div
+            data-aos="fade-left"
+            className="backdrop-blur bg-white/10 rounded-lg p-5 lg:ml-4"
+          >
             <h1 className="relative w-fit max-md:w-full mb-8 text-3xl font-extrabold after:absolute after:w-1/2 after:h-1 after:rounded-lg after:bg-orange-500 after:-bottom-5 after:left-0 max-md:after:left-1/4">
               Technical Skills
             </h1>
@@ -52,11 +58,14 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="backdrop-blur bg-black/60 rounded-lg p-5 max-md:text-center lg:col-span-2 lg:w-7/12 lg:mx-auto">
+          <div
+            data-aos="fade-up"
+            className="backdrop-blur bg-white/10 rounded-lg p-5 max-md:text-center lg:col-span-2 lg:w-7/12 lg:mx-auto"
+          >
             <h1 className="text-center relative w-full max-md:w-full mb-8 text-3xl font-extrabold after:absolute after:w-1/4 after:h-1 after:rounded-lg after:bg-orange-500 after:-bottom-5 after:left-1/2 after:-translate-x-1/2 max-md:after:left-1/2">
               Vision
             </h1>
-            <p className="text-lg mx-auto lg:m-0 lg-w-full">
+            <p className="text-lg mx-auto lg:m-0 lg-w-full text-justify whitespace-pre-line leading-relaxed">
               My vision is to become a skilled Full Stack Developer who can
               contribute to innovative projects and make a positive impact on
               the world. I am committed to continuous learning and staying up to
