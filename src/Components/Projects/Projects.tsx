@@ -1,4 +1,4 @@
-import Card from "./Card";
+import ProjectCard from "./ProjectCard";
 
 const cardData = [
   {
@@ -134,7 +134,7 @@ const Projects = () => {
       <div className="w-full grid lg:grid-cols-3 gap-y-9 gap-x-3 md:grid-cols-2 max-sm:grid-cols-1">
         {cardData.map((card, index) => (
           <div key={index}>
-            <Card
+            <ProjectCard
               title={card.title}
               description={card.description}
               img={card.img}

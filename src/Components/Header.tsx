@@ -84,6 +84,14 @@ function Header() {
               </li>
               <li>
                 <a
+                  href="#experience"
+                  className="text-xl block mx-3 py-2 px-3 text-white md:hover:text-orange-700 rounded md:bg-transparent md:p-0 max-md:hover:bg-orange-700"
+                >
+                  Experience
+                </a>
+              </li>
+              <li>
+                <a
                   href="#projects"
                   className="text-xl block mx-3 py-2 px-3 text-white md:hover:text-orange-700 rounded md:bg-transparent md:p-0 max-md:hover:bg-orange-700"
                 >

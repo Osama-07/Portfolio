@@ -8,6 +8,7 @@ import Footer from "./Components/Footer";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Experience from "./Components/Experience";
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
       <Header />
       <HeroSection />
       <About />
+      <Experience />
       <Projects />
       <Contact />
       <Footer />

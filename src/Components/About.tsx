@@ -7,7 +7,7 @@ const About = () => {
         </h1>
         <div className="p-5 mx-14 max-md:mx-4 grid grid-cols-2 gap-y-10 max-lg:grid-cols-1 rounded-lg max-md:rounded-lg max-md:text-center">
           <div
-            data-aos="fade-right"
+            data-aos="fade-up"
             className="backdrop-blur bg-white/10 rounded-lg p-5 relative after:absolute after:w-1 after:h-3/4 after:top-1/2 after:-translate-y-1/2 after:bg-orange-500 after:-right-2.5 after:rounded-lg max-lg:after:hidden"
           >
             <h1 className="relative w-fit max-md:w-full mb-8 text-3xl font-extrabold after:absolute after:w-1/2 after:h-1 after:rounded-lg after:bg-orange-500 after:-bottom-5 after:left-0 max-md:after:left-1/4">
@@ -25,7 +25,7 @@ const About = () => {
             </p>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             className="backdrop-blur bg-white/10 rounded-lg p-5 lg:ml-4"
           >
             <h1 className="relative w-fit max-md:w-full mb-8 text-3xl font-extrabold after:absolute after:w-1/2 after:h-1 after:rounded-lg after:bg-orange-500 after:-bottom-5 after:left-0 max-md:after:left-1/4">

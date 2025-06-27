@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import { FaWhatsapp } from "react-icons/fa";
 import Typed from "typed.js";
 
 const HeroSection = () => {
@@ -8,8 +7,8 @@ const HeroSection = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "<span class='text-red-500'>Osama</span> Abdulaziz",
-        "Full <span class='text-red-500'>Stack</span> Developer",
+        "<span class='text-orange-500'>Osama</span> Abdulaziz",
+        "Full <span class='text-orange-500'>Stack</span> Developer",
       ],
       cursorChar: ".",
       typeSpeed: 40,
@@ -49,13 +48,13 @@ const HeroSection = () => {
           Contact Me
         </a>
       </div>
-      <a
+      {/* <a
         href="https://wa.me/966554669791"
         target="_blank"
         className="max-md:opacity-30 hover:opacity-100 fixed w-16 h-16 bottom-10 right-6 duration-200 hover:scale-110 cursor-pointer z-10"
       >
         <FaWhatsapp color="white" size={70} />
-      </a>
+      </a> */}
     </div>
   );
 };

@@ -20,7 +20,7 @@ const Contact = () => {
               Con<span className="text-orange-500">ta</span>ct
             </h1>
             <ul className="flex flex-wrap justify-center items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-              <li data-aos="fade-left" data-aos-delay="100">
+              <li data-aos="fade-up" data-aos-delay="0">
                 <a
                   href="https://x.com/Osama_Dev0"
                   target="_blank"
@@ -33,7 +33,7 @@ const Contact = () => {
                   </span>
                 </a>
               </li>
-              <li data-aos="fade-left" data-aos-delay="200">
+              <li data-aos="fade-up" data-aos-delay="100">
                 <a
                   href="https://www.linkedin.com/in/osama-abdulaziz-00a8332a7/"
                   target="_blank"
@@ -46,7 +46,7 @@ const Contact = () => {
                   </span>
                 </a>
               </li>
-              <li data-aos="fade-left" data-aos-delay="300">
+              <li data-aos="fade-up" data-aos-delay="200">
                 <a
                   href="https://github.com/Osama-07"
                   target="_blank"
@@ -59,7 +59,7 @@ const Contact = () => {
                   </span>
                 </a>
               </li>
-              <li data-aos="fade-left" data-aos-delay="400">
+              <li data-aos="fade-up" data-aos-delay="300">
                 <a
                   href="https://wa.me/+966554669791"
                   target="_blank"

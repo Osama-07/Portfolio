@@ -8,7 +8,7 @@ interface CardProps {
   webLink: string | null;
 }
 
-const Card: React.FC<CardProps> = ({
+const ProjectCard: React.FC<CardProps> = ({
   title,
   description,
   img,
@@ -61,7 +61,7 @@ const Card: React.FC<CardProps> = ({
   );
 };
 
-export default Card;
+export default ProjectCard;
 // <div classNameName="max-w-sm h-full bg-white border border-gray-200 rounded-lg shadow">
 //   <a href={webLink ? webLink : ""}>
 //     <img classNameName="rounded-t-lg w-full h-56" src={img} alt="" />
