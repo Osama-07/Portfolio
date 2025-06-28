@@ -24,9 +24,7 @@ export default function Experience() {
         Expe<span className="text-orange-500">rie</span>nce
       </h1>
       <div
-        className={`mt-20 w-[90%] mx-auto grid gap-6 max-md:w-full
-    ${"grid-cols-2 max-md:grid-cols-1"}
-  `}
+        className={`mt-20 w-[90%] mx-auto p-5 grid gap-6 max-md:w-full grid-cols-2 max-md:grid-cols-1`}
       >
         {cardData.map((card, index) => (
           <div

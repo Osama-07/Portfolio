@@ -27,11 +27,11 @@ const HeroSection = () => {
   return (
     <div className="relative h-screen overflow-hidden" id="home">
       {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-85"></div> */}
-      <div className="md:pl-56 max-md:text-center w-full px-3 absolute top-1/2 transform -translate-y-1/2">
-        <h1 className="relative w-fit max-md:m-auto max-md:text-center mb-4 text-4xl font-extrabold leading-normal tracking-tight md:text-5xl lg:text-6xl text-white after:absolute after:w-1/2 after:h-1 after:bg-orange-500 after:left-0 after:-bottom-5 max-md:after:left-1/4 max-md:after:right-1/4">
+      <div className="lg:pl-56 max-lg:text-center w-full px-3 absolute top-1/2 transform -translate-y-1/2">
+        <h1 className="relative w-fit max-lg:m-auto max-lg:text-center mb-4 text-4xl font-extrabold leading-normal tracking-tight md:text-5xl lg:text-6xl text-white after:absolute after:w-1/2 after:h-1 after:bg-orange-500 after:left-0 after:-bottom-5 max-md:after:left-1/4 max-md:after:right-1/4">
           <span ref={el} />
         </h1>
-        <p className="!leading-loose w-2/4 max-md:w-full mt-10 mb-6 p-0 text-lg font-normal text-gray-500  max-md:text-center">
+        <p className="!leading-loose w-2/4 max-lg:w-full md:w-3/4 max-lg:text-center max-lg:mx-auto mt-10 mb-6 p-0 text-lg font-normal text-gray-500  max-md:text-center">
           A dedicated software developer with a passion for learning, solving
           problems, and creating impactful applications.
         </p>
