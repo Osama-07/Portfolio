@@ -63,7 +63,7 @@ const cardData = [
 const Projects = () => {
   return (
     <div id="projects" className="px-12 py-20 ">
-      <h1 className="text-center text-6xl font-extrabold mb-20 bg-gradient-to-tr from-orange-500 via-white to-zinc-900 bg-clip-text text-transparent">
+      <h1 className="text-center text-6xl font-extrabold mb-20 p-3 bg-gradient-to-tr from-orange-500 via-white to-zinc-900 bg-clip-text text-transparent">
         Pr<span className="text-orange-500">o</span>jects
       </h1>
       <div className="w-full grid lg:grid-cols-3 gap-y-9 gap-x-3 md:grid-cols-2 max-sm:grid-cols-1">
