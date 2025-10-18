@@ -22,10 +22,9 @@ const cardData = [
     title: "Photographer Website",
     description:
       "A sleek and responsive portfolio website designed for a photographer, built using Vite, React, and Tailwind CSS. The site elegantly showcases the photographer's portfolio with a modern design, ensuring fast performance and an exceptional user experience. Tailwind CSS was used to create a clean, customizable layout, while Vite ensures quick development and smooth loading times.",
-    img: "/Photographer-Portfolio.png",
+    img: "/Photographer Portfolio.png",
     link: "https://github.com/Osama-07/Photographer-Portfolio",
-    webLink:
-      "https://photographer-portfolio-osamas-projects-b75d1734.vercel.app/",
+    webLink: "https://photography-portfolio-one-dun.vercel.app/",
   },
   {
     title: "Restaurant Management System",

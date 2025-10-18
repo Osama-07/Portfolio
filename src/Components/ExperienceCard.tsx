@@ -6,6 +6,7 @@ interface ExperienceCardProps {
   description: string;
   benefits: string[];
   img: string;
+  backgroundColor: string;
 }
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({
@@ -16,13 +17,18 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
   description,
   benefits,
   img,
+  backgroundColor,
 }) => {
   return (
     <div
       data-aos="fade-up"
-      className="backdrop-blur bg-white/10 rounded-xl p-4 gap-6 flex max-xl:flex-col max-xl:items-center max-xl:justify-center"
+      className="backdrop-blur bg-white/10 rounded-xl p-4 gap-6 flex max-xl:flex-col max-xl:items-center justify-center"
     >
-      <img src={img} className="h-full w-24 rounded-xl" alt="" />
+      <img
+        src={img}
+        className={`h-full w-24 rounded-xl bg-${backgroundColor}`}
+        alt=""
+      />
       <div className="flex flex-col items-center justify-center">
         <h1 className="flex text-center mb-2 text-white text-2xl font-bold leading-tight tracking-[-0.015em]">
           {position} | {company}

@@ -5,7 +5,7 @@ const cardData = [
     position: "Software Engineer Intern",
     company: "TechWin",
     startDate: "Apr 2025",
-    endDate: "Present",
+    endDate: "Sep 2025",
     description:
       "Contributed as a Software Engineer Intern focusing on web development and team collaboration.",
 
@@ -15,6 +15,23 @@ const cardData = [
       "Contributed to API integration and optimized backend performance.",
     ],
     img: "/TechWin Logo.jpeg",
+    backgroundColor: "transparent",
+  },
+  {
+    position: "Software Engineer",
+    company: "شبرا الطائف",
+    startDate: "Oct 2025",
+    endDate: "Present",
+    description:
+      "Worked on designing and developing the Shubra Store website, handling both backend and frontend development tasks.",
+
+    benefits: [
+      "Built and maintained the backend using PHP with the Laravel framework.",
+      "Developed the frontend using HTML, CSS, and JavaScript without frontend frameworks.",
+      "Implemented core website features and optimized for performance and usability.",
+    ],
+    img: "/shubra.png",
+    backgroundColor: "white",
   },
 ];
 export default function Experience() {
@@ -44,6 +61,7 @@ export default function Experience() {
                 description={card.description}
                 benefits={card.benefits}
                 img={card.img}
+                backgroundColor={card.backgroundColor}
               />
             </div>
           </div>
