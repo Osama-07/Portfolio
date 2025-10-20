@@ -3,7 +3,6 @@ import Header from "./Components/Header";
 import HeroSection from "./Components/HeroSection";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact";
-import video from "../public/background4.mp4";
 import Footer from "./Components/Footer";
 import { useEffect } from "react";
 import AOS from "aos";
