@@ -17,22 +17,22 @@ const cardData = [
     img: "/TechWin Logo.jpeg",
     backgroundColor: "transparent",
   },
-  {
-    position: "Software Engineer",
-    company: "شبرا الطائف",
-    startDate: "Oct 2025",
-    endDate: "Present",
-    description:
-      "Worked on designing and developing the Shubra Store website, handling both backend and frontend development tasks.",
+  // {
+  //   position: "Software Engineer",
+  //   company: "شبرا الطائف",
+  //   startDate: "Oct 2025",
+  //   endDate: "Present",
+  //   description:
+  //     "Worked on designing and developing the Shubra Store website, handling both backend and frontend development tasks.",
 
-    benefits: [
-      "Built and maintained the backend using PHP with the Laravel framework.",
-      "Developed the frontend using HTML, CSS, and JavaScript without frontend frameworks.",
-      "Implemented core website features and optimized for performance and usability.",
-    ],
-    img: "/shubra.png",
-    backgroundColor: "white",
-  },
+  //   benefits: [
+  //     "Built and maintained the backend using PHP with the Laravel framework.",
+  //     "Developed the frontend using HTML, CSS, and JavaScript without frontend frameworks.",
+  //     "Implemented core website features and optimized for performance and usability.",
+  //   ],
+  //   img: "/shubra.png",
+  //   backgroundColor: "white",
+  // },
 ];
 export default function Experience() {
   return (
