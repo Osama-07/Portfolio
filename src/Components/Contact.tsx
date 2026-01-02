@@ -31,7 +31,7 @@ const Contact = () => {
   ];
 
   return (
-    <footer id="contact" className="rounded-lg shadow py-14">
+    <footer id="contact" className="rounded-lg py-14">
       <div className="w-full max-w-screen-xl mx-auto">
         <div className="flex justify-around sm:items-center max-sm:justify-center max-sm:flex-col py-10">
           <h1

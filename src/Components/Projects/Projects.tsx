@@ -2,13 +2,12 @@ import ProjectCard from "./ProjectCard";
 
 const cardData = [
   {
-    title: "Solar Fix",
+    title: "hanfi-ihsa",
     description:
-      "A full-stack web platform that connects clients with certified solar technicians. Clients can register, book services, track request status, and rate technicians. Technicians manage incoming requests, accept jobs, and close completed orders.",
-    img: "/SolarFix.png",
-    link: "https://github.com/Osama-07/SolarFix-API",
-    webLink:
-      "https://solar-fix-git-main-osamas-projects-b75d1734.vercel.app/login",
+      "A specialized web platform for presenting Islamic jurisprudence topics. I developed the backend architecture and contributed enhancements to the frontend, focusing on improving user experience and functionality.",
+    img: "/hanfi.png",
+    link: null,
+    webLink: "https://hanfi-ihsa.com/",
   },
   {
     title: "Photographer Website",
@@ -19,12 +18,13 @@ const cardData = [
     webLink: "https://photography-portfolio-one-dun.vercel.app/",
   },
   {
-    title: "hanfi-ihsa",
+    title: "Solar Fix",
     description:
-      "A specialized web platform for presenting Islamic jurisprudence topics. I developed the backend architecture and contributed enhancements to the frontend, focusing on improving user experience and functionality.",
-    img: "/hanfi.png",
-    link: null,
-    webLink: "https://hanfi-ihsa.com/",
+      "A full-stack web platform that connects clients with certified solar technicians. Clients can register, book services, track request status, and rate technicians. Technicians manage incoming requests, accept jobs, and close completed orders.",
+    img: "/SolarFix.png",
+    link: "https://github.com/Osama-07/SolarFix-API",
+    webLink:
+      "https://solar-fix-git-main-osamas-projects-b75d1734.vercel.app/login",
   },
   {
     title: "Prayers Timings",
@@ -62,9 +62,9 @@ const cardData = [
 
 const Projects = () => {
   return (
-    <div id="projects" className="px-12 py-20 ">
-      <h1 className="text-center text-6xl font-extrabold mb-20 p-3 bg-gradient-to-tr from-orange-500 via-white to-zinc-900 bg-clip-text text-transparent">
-        Pr<span className="text-orange-500">o</span>jects
+    <div id="projects" className="px-12 max-md:px-4 py-20 ">
+      <h1 className="text-center text-6xl font-extrabold mb-20 p-3 bg-gradient-to-tr from-primary via-primaryForeground to-secondary bg-clip-text text-transparent">
+        Pr<span className="text-primary">o</span>jects
       </h1>
       <div className="w-full grid lg:grid-cols-3 gap-y-9 gap-x-3 md:grid-cols-2 max-sm:grid-cols-1">
         {cardData.map((card, index) => (

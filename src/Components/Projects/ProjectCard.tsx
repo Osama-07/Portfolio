@@ -18,7 +18,7 @@ const ProjectCard: React.FC<CardProps> = ({
   return (
     <div
       data-aos="fade-up"
-      className="h-full p-4 backdrop-blur bg-white/10 rounded-xl flex flex-col"
+      className="h-full p-4 backdrop-blur-3xl bg-white/10 rounded-xl flex flex-col"
     >
       <div className="flex flex-col h-full rounded-xl">
         <div className="w-full max-h-[155px] bg-center bg-no-repeat aspect-video bg-cover rounded-xl">
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<CardProps> = ({
           </h1>
         </div>
         <div className="w-full min-w-72 justify-center gap-1 pb-4">
-          <p className="text-[#b4856a] text-base mb-3 text-justify whitespace-pre-line leading-relaxed">
+          <p className="text-secondaryForeground text-base mb-3 text-justify whitespace-pre-line leading-relaxed">
             {description}
           </p>
         </div>

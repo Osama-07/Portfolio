@@ -19,8 +19,10 @@ function App() {
 
   return (
     <div className="relative min-h-screen text-white">
+      {/* <!-- الخلفية --> */}
+      <div className="cover"></div>
       {/* <!-- تغبيش --> */}
-      <div className="fixed top-0 left-0 w-full h-full -z-10 backdrop-blur-sm bg-black/80"></div>
+      {/* <div className="fixed top-0 left-0 w-full h-full -z-10 backdrop-blur-3xl"></div> */}
 
       <Header />
       <HeroSection />
