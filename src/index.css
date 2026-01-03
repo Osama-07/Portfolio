@@ -40,6 +40,15 @@ html {
   background-color: #ff5a1f;
 }
 
+::web-kit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+* {
+  scrollbar-width: none;
+}
+
 .cover {
   background-image: url("/blob-scene-haikei.svg");
   background-size: cover;

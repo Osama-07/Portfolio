@@ -60,9 +60,9 @@ const Contact = () => {
                       target="_blank"
                       className="relative ml-6 rounded-lg p-2 overflow-hidden flex justify-center items-center hover:scale-105 transition-transform duration-200"
                     >
-                      <span className="absolute inset-0 bg-[linear-gradient(135deg,#27272a,#f97316)] bg-[length:200%_200%] transition-all duration-700 ease-in-out group-hover:bg-[linear-gradient(135deg,#3f3f46,#fb923c)] group-hover:bg-right rounded-lg" />
+                      <span className="absolute inset-0 bg-[linear-gradient(135deg,#27272a,#ff5a1f)] bg-[length:200%_200%] transition-all duration-700 ease-in-out group-hover:bg-[linear-gradient(135deg,#3f3f46,#ff5a1f)] group-hover:bg-right rounded-lg" />
                       {/* الأيقونة */}
-                      <span className="relative z-10 transition-transform duration-500 group-hover:rotate-[360deg]">
+                      <span className="relative z-10 transition-transform duration-500">
                         {React.createElement(link.icon, {
                           color: "white",
                           size: "40",

@@ -45,7 +45,7 @@ const ProjectCard: React.FC<CardProps> = ({
               target="_blank"
               className="relative flex min-w-[84px] max-w-[480px] h-8 items-center justify-center rounded-xl overflow-hidden text-sm font-medium text-white cursor-pointer group"
             >
-              <span className="absolute inset-0 bg-[linear-gradient(135deg,#f97316,#27272a)] bg-[length:200%_200%] transition-all duration-700 ease-in-out group-hover:bg-[linear-gradient(135deg,#fb923c,#3f3f46)] group-hover:bg-right"></span>
+              <span className="absolute inset-0 bg-[linear-gradient(135deg,#ff5a1f,#27272a)] bg-[length:200%_200%] transition-all duration-700 ease-in-out group-hover:bg-[linear-gradient(135deg,#fb923c,#ff5a1f)] group-hover:bg-right"></span>
               <span className="relative z-10 truncate px-4">See Code</span>
             </a>
           )}
@@ -55,7 +55,7 @@ const ProjectCard: React.FC<CardProps> = ({
               target="_blank"
               className="relative flex min-w-[84px] max-w-[480px] h-8 items-center justify-center rounded-xl overflow-hidden text-sm font-medium text-white cursor-pointer group"
             >
-              <span className="absolute inset-0 bg-[linear-gradient(135deg,#f97316,#27272a)] bg-[length:200%_200%] transition-all duration-700 ease-in-out group-hover:bg-[linear-gradient(135deg,#fb923c,#3f3f46)] group-hover:bg-right"></span>
+              <span className="absolute inset-0 bg-[linear-gradient(135deg,#ff5a1f,#27272a)] bg-[length:200%_200%] transition-all duration-700 ease-in-out group-hover:bg-[linear-gradient(135deg,#fb923c,#ff5a1f)] group-hover:bg-right"></span>
               <span className="relative z-10 truncate px-4">View Web</span>
             </a>
           )}
